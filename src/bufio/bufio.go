@@ -16,7 +16,7 @@ import (
 )
 
 const (
-	defaultBufSize = 4096
+	defaultBufSize = 8 * 4096
 )
 
 var (
